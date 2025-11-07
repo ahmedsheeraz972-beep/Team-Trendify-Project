@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trendify - Mens</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#">
+        <img src="logo.jpeg" alt="" width="80px" height="60px"> Trendify - Fashion Store
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-5 mb-lg-3">
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="Mens.html" role="button" data-bs-toggle="dropdown">
+              Mens
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="jeans.html">Jeans</a></li>
+              <li><a class="dropdown-item" href="#">Sweatshirts</a></li>
+              <li><a class="dropdown-item" href="#">Trousers</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown">
+              Womens
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Frowk</a></li>
+              <li><a class="dropdown-item" href="#">Kurti</a></li>
+              <li><a class="dropdown-item" href="#">Sharara</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-light" type="submit">Purchase</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <div class="container mt-5 mb-5">
+    <div class="row g-4">
+
+      <!-- card 1 -->
+      <div class="col-3">
+        <div class="card">
+          <img src="https://turbobrandsfactory.com/cdn/shop/files/MDB-3_c76b7b47-84ef-4b69-b459-aca12361c020.jpg?crop=region&crop_height=2238&crop_left=0&crop_top=5&crop_width=1500&v=1749815547&width=425" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Trendify Solid Turbo Modern Ankle Fit Jeans In Mid Blue</h5>
+            <p><del class="text-danger">Rs.3,990.00</del> <strong>Rs.2,795.00 PKR</strong></p>
+
+            <!-- Size Buttons -->
+            <div class="mb-3">
+              <label class="form-label fw-bold">Size</label>
+              <div class="d-flex gap-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">M</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">L</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XL</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XXL</button>
+              </div>
+            </div>
+
+            <!-- Quantity -->
+            <div class="mb-3 d-flex align-items-center">
+              <label class="me-2 fw-bold">Quantity:</label>
+              <div class="input-group" style="width:120px;">
+                <button class="btn btn-outline-secondary decreaseQty" type="button">-</button>
+                <input type="text" class="form-control text-center quantity" value="1" readonly>
+                <button class="btn btn-outline-secondary increaseQty" type="button">+</button>
+              </div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark addToCartBtn">Add to Cart</button>
+              <button class="btn btn-primary buyNowBtn" data-product="Nike Vintage Dual Tone Aplic Patched Hoodie"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">Buy It Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="col-3">
+        <div class="card">
+          <img src="https://turbobrandsfactory.com/cdn/shop/files/MDB-4.jpg?crop=region&crop_height=2238&crop_left=0&crop_top=5&crop_width=1500&v=1753520012&width=425" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Trendify 'Kinetic-Move' Skinny Ankle Fit Jeans In Mid Blue</h5>
+            <p><del class="text-danger">Rs.3,990.00</del> <strong>Rs.2,795.00 PKR</strong></p>
+
+            <!-- Size Buttons -->
+            <div class="mb-3">
+              <label class="form-label fw-bold">Size</label>
+              <div class="d-flex gap-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">M</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">L</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XL</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XXL</button>
+              </div>
+            </div>
+
+            <!-- Quantity -->
+            <div class="mb-3 d-flex align-items-center">
+              <label class="me-2 fw-bold">Quantity:</label>
+              <div class="input-group" style="width:120px;">
+                <button class="btn btn-outline-secondary decreaseQty" type="button">-</button>
+                <input type="text" class="form-control text-center quantity" value="1" readonly>
+                <button class="btn btn-outline-secondary increaseQty" type="button">+</button>
+              </div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark addToCartBtn">Add to Cart</button>
+              <button class="btn btn-primary buyNowBtn" data-product="Nike Vintage Dual Tone Aplic Patched Hoodie"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">Buy It Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="col-3">
+        <div class="card">
+          <img src="https://turbobrandsfactory.com/cdn/shop/files/SKB-2_a40ddd0e-7d21-4610-aa84-7b7b4db775e8.jpg?crop=region&crop_height=2238&crop_left=0&crop_top=5&crop_width=1500&v=1753520488&width=425" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Trendify 'Precision Taper' Sculpt Ankle Fit Jeans In Sky Blue</h5>
+            <p><del class="text-danger">Rs.3,990.00</del> <strong>Rs.2,795.00 PKR</strong></p>
+
+            <!-- Size Buttons -->
+            <div class="mb-3">
+              <label class="form-label fw-bold">Size</label>
+              <div class="d-flex gap-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">M</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">L</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XL</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XXL</button>
+              </div>
+            </div>
+
+            <!-- Quantity -->
+            <div class="mb-3 d-flex align-items-center">
+              <label class="me-2 fw-bold">Quantity:</label>
+              <div class="input-group" style="width:120px;">
+                <button class="btn btn-outline-secondary decreaseQty" type="button">-</button>
+                <input type="text" class="form-control text-center quantity" value="1" readonly>
+                <button class="btn btn-outline-secondary increaseQty" type="button">+</button>
+              </div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark addToCartBtn">Add to Cart</button>
+              <button class="btn btn-primary buyNowBtn" data-product="Nike Vintage Dual Tone Aplic Patched Hoodie"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">Buy It Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card 4 -->
+      <div class="col-3">
+        <div class="card">
+          <img src="https://turbobrandsfactory.com/cdn/shop/files/gry_9a2fa4e9-d3a0-4200-a042-a750396eaa23.jpg?crop=region&crop_height=2238&crop_left=0&crop_top=5&crop_width=1500&v=1753520983&width=425" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Trendify 'Urban Rebel' Slim Taper Ankle Fit Jeans In Grey</h5>
+            <p><del class="text-danger">Rs.3,990.00</del> <strong>Rs.2,795.00 PKR</strong></p>
+
+            <!-- Size Buttons -->
+            <div class="mb-3">
+              <label class="form-label fw-bold">Size</label>
+              <div class="d-flex gap-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">M</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">L</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XL</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XXL</button>
+              </div>
+            </div>
+
+            <!-- Quantity -->
+            <div class="mb-3 d-flex align-items-center">
+              <label class="me-2 fw-bold">Quantity:</label>
+              <div class="input-group" style="width:120px;">
+                <button class="btn btn-outline-secondary decreaseQty" type="button">-</button>
+                <input type="text" class="form-control text-center quantity" value="1" readonly>
+                <button class="btn btn-outline-secondary increaseQty" type="button">+</button>
+              </div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark addToCartBtn">Add to Cart</button>
+              <button class="btn btn-primary buyNowBtn" data-product="Nike Vintage Dual Tone Aplic Patched Hoodie"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">Buy It Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
+    </div>
+  </div>
+  <!-- container 1 End -->
+   <!-- container 2 Start -->
+     <div class="container mt-5 mb-5">
+    <div class="row g-4">
+
+      <!-- card 1 -->
+      <div class="col-3">
+        <div class="card">
+          <img src="https://turbobrandsfactory.com/cdn/shop/files/dkn-3.jpg?crop=region&crop_height=2238&crop_left=0&crop_top=5&crop_width=1500&v=1756717199&width=425" class="card-img-top" alt="image1">
+          <div class="card-body">
+            <h5 class="card-title">Turbo 'Apex-Strech' Flexible Ankle-Fit Jeans In Dark Navy</h5>
+            <p><del class="text-danger">Rs.4,990.00</del> <strong>Rs.3,795.00 PKR</strong></p>
+
+            <!-- Size Buttons -->
+            <div class="mb-3">
+              <label class="form-label fw-bold">Size</label>
+              <div class="d-flex gap-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">M</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">L</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XL</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XXL</button>
+              </div>
+            </div>
+
+            <!-- Quantity -->
+            <div class="mb-3 d-flex align-items-center">
+              <label class="me-2 fw-bold">Quantity:</label>
+              <div class="input-group" style="width:120px;">
+                <button class="btn btn-outline-secondary decreaseQty" type="button">-</button>
+                <input type="text" class="form-control text-center quantity" value="1" readonly>
+                <button class="btn btn-outline-secondary increaseQty" type="button">+</button>
+              </div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark addToCartBtn">Add to Cart</button>
+              <button class="btn btn-primary buyNowBtn" data-product="Nike Vintage Dual Tone Aplic Patched Hoodie"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">Buy It Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="col-3">
+        <div class="card">
+          <img src="https://turbobrandsfactory.com/cdn/shop/files/DTB-4_9b4d3520-f907-465d-8c9f-cdc86b81f08f.jpg?crop=region&crop_height=2238&crop_left=0&crop_top=5&crop_width=1500&v=1756718511&width=425" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Trendify Refined Edge Ankle-Fit Jeans In Dirty Blue</h5>
+            <p><del class="text-danger">Rs.3,990.00</del> <strong>Rs.2,795.00 PKR</strong></p>
+
+            <!-- Size Buttons -->
+            <div class="mb-3">
+              <label class="form-label fw-bold">Size</label>
+              <div class="d-flex gap-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">M</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">L</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XL</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XXL</button>
+              </div>
+            </div>
+
+            <!-- Quantity -->
+            <div class="mb-3 d-flex align-items-center">
+              <label class="me-2 fw-bold">Quantity:</label>
+              <div class="input-group" style="width:120px;">
+                <button class="btn btn-outline-secondary decreaseQty" type="button">-</button>
+                <input type="text" class="form-control text-center quantity" value="1" readonly>
+                <button class="btn btn-outline-secondary increaseQty" type="button">+</button>
+              </div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark addToCartBtn">Add to Cart</button>
+              <button class="btn btn-primary buyNowBtn" data-product="Nike Vintage Dual Tone Aplic Patched Hoodie"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">Buy It Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="col-3">
+        <div class="card">
+          <img src="https://turbobrandsfactory.com/cdn/shop/files/skb-1_e06ae2e0-2297-49f3-9db7-217abb0ed4b1.jpg?crop=region&crop_height=2238&crop_left=0&crop_top=5&crop_width=1500&v=1756718095&width=425" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Trendify 'Podge' Everyday Feel Good Ankle-Fit Jeans In Sky Blue</h5>
+            <p><del class="text-danger">Rs.3,990.00</del> <strong>Rs.2,795.00 PKR</strong></p>
+
+            <!-- Size Buttons -->
+            <div class="mb-3">
+              <label class="form-label fw-bold">Size</label>
+              <div class="d-flex gap-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">M</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">L</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XL</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XXL</button>
+              </div>
+            </div>
+
+            <!-- Quantity -->
+            <div class="mb-3 d-flex align-items-center">
+              <label class="me-2 fw-bold">Quantity:</label>
+              <div class="input-group" style="width:120px;">
+                <button class="btn btn-outline-secondary decreaseQty" type="button">-</button>
+                <input type="text" class="form-control text-center quantity" value="1" readonly>
+                <button class="btn btn-outline-secondary increaseQty" type="button">+</button>
+              </div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark addToCartBtn">Add to Cart</button>
+              <button class="btn btn-primary buyNowBtn" data-product="Nike Vintage Dual Tone Aplic Patched Hoodie"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">Buy It Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card 4 -->
+      <div class="col-3">
+        <div class="card">
+          <img src="https://turbobrandsfactory.com/cdn/shop/files/BLU_6e172b8a-faed-43fa-860a-d924457ae67b.jpg?crop=region&crop_height=2238&crop_left=0&crop_top=5&crop_width=1500&v=1756718830&width=425" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Trendify 'Knitted' Flexible Edge Ankle-Fit Jeans In Blue</h5>
+            <p><del class="text-danger">Rs.3,990.00</del> <strong>Rs.2,795.00 PKR</strong></p>
+
+            <!-- Size Buttons -->
+            <div class="mb-3">
+              <label class="form-label fw-bold">Size</label>
+              <div class="d-flex gap-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">M</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">L</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XL</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm size-btn">XXL</button>
+              </div>
+            </div>
+
+            <!-- Quantity -->
+            <div class="mb-3 d-flex align-items-center">
+              <label class="me-2 fw-bold">Quantity:</label>
+              <div class="input-group" style="width:120px;">
+                <button class="btn btn-outline-secondary decreaseQty" type="button">-</button>
+                <input type="text" class="form-control text-center quantity" value="1" readonly>
+                <button class="btn btn-outline-secondary increaseQty" type="button">+</button>
+              </div>
+            </div>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark addToCartBtn">Add to Cart</button>
+              <button class="btn btn-primary buyNowBtn" data-product="Nike Vintage Dual Tone Aplic Patched Hoodie"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">Buy It Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
+    </div>
+  </div>
+  <!-- Container 2 End -->
+
+
+  <!-- Single Reusable Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Fill Your Details</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form id="orderForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="mb-3">
+              <label for="number" class="form-label">Mobile Number</label>
+              <input type="tel" class="form-control" id="number" placeholder="Enter your number" required>
+            </div>
+            <div class="mb-3">
+              <label for="address" class="form-label">Address</label>
+              <textarea class="form-control" id="address" rows="3" placeholder="Enter full address" required></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="city" class="form-label">City</label>
+              <input type="text" class="form-control" id="city" placeholder="Enter your city" required>
+            </div>
+            <div class="mb-3">
+              <label for="pincode" class="form-label">City Code</label>
+              <input type="text" class="form-control" id="pincode" placeholder="Enter your area pin code" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-success confirmBtn">Purchase</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script>
+    // Quantity per card
+    document.querySelectorAll('.card').forEach(card => {
+      let quantity = 1;
+      const decrease = card.querySelector('.decreaseQty');
+      const increase = card.querySelector('.increaseQty');
+      const qtyInput = card.querySelector('.quantity');
+
+      increase.addEventListener('click', () => {
+        quantity++;
+        qtyInput.value = quantity;
+      });
+
+      decrease.addEventListener('click', () => {
+        if (quantity > 1) {
+          quantity--;
+          qtyInput.value = quantity;
+        }
+      });
+    });
+
+    // Buy Now button shows which product
+    document.querySelectorAll('.buyNowBtn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const productName = btn.getAttribute('data-product');
+        document.getElementById('exampleModalLabel').textContent = `Buy Now - ${productName}`;
+      });
+    });
+
+    // Confirm purchase
+    document.querySelector('.confirmBtn').addEventListener('click', () => {
+      const modal = bootstrap.Modal.getInstance(document.getElementById('exampleModal'));
+      modal.hide();
+      alert("Thank you! Your order has been placed.");
+      document.getElementById('orderForm').reset();
+    });
+
+    // Size button toggle
+    document.querySelectorAll('.size-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const parent = btn.closest('.d-flex');
+        parent.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
