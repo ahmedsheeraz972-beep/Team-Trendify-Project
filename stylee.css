@@ -50,7 +50,7 @@ transition-timing-function: ease;
     .card:hover{
       transform: scale(1);
       box-shadow: 0 10px 80px;
-      transform: perspective(1000px) translateZ(30px) scale(1);
+      /* transform: perspective(1000px) translateZ(30px) scale(1); */
     }
 
 
@@ -111,7 +111,7 @@ transition: 1s;
       margin-left: 80px;
 
       transition-property: box-shadow;
-transition-duration: 0.7s;
+transition-duration: 0.5s;
 transition-timing-function: ease;
 
     }
@@ -119,10 +119,14 @@ transition-timing-function: ease;
 
     .brimage:hover{
        transform: scale(1);
-      box-shadow: 0 10px 40px black;
+      box-shadow: 0 10px 30px black;
       
     }
 
+
+    #btn{
+      border: 2px solid black;
+    }
 
 
 
