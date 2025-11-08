@@ -78,6 +78,11 @@
    .container {
      max-width: 1200px;
    }
+   .container .heading{
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+   }
 
    .card {
      transition-property: box-shadow;
@@ -89,3 +94,4 @@
      transform: scale(1.1);
      box-shadow: 0 10px 80px;
    }
+   
